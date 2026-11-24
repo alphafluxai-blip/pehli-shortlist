@@ -1,4 +1,4 @@
-Pehli Shortlist — standalone landing page for recruitment teams
+First Shortlist · standalone landing page for recruitment teams
 ================================================================
 
 What it is
