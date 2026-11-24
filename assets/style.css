@@ -449,13 +449,13 @@ section { padding: 56px 0; }
 
   .sticky-cta {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 100;
-    padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+    padding: 10px 10px calc(10px + env(safe-area-inset-bottom, 0px));
     background: var(--surface);
     border-top: 1px solid var(--hair);
     box-shadow: 0 -4px 16px rgba(33, 26, 20, 0.12);
@@ -463,9 +463,11 @@ section { padding: 56px 0; }
 
   .sticky-cta .btn {
     flex: 1 1 0;
+    min-width: 0;
     min-height: 52px;
-    padding: 12px 10px;
-    font-size: 16px;
+    padding: 12px 6px;
+    font-size: 14px;
+    white-space: nowrap;
     border-radius: 10px;
   }
 }
