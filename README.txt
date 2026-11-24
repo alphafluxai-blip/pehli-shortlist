@@ -22,13 +22,16 @@ Sections
 - What you get: time back, shortlist built on what candidates say,
   sessions scheduled, team meets finalists only.
 - To start: "one role, and its criteria" plus the note that everything
-  is set up around how the team hires (not a fixed template), plus both
-  CTAs again.
+  is set up around how the team hires (not a fixed template), plus the
+  paid line "We start with one role as a small paid trial."
+- Final CTA: terracotta panel "Start with one role." with the two big
+  CTAs, the single line "No pitch. I will show it live on one of your
+  roles." and the byline "Built and set up by Gul Sehar."
 - Footer: email, LinkedIn, WhatsApp.
 
 CTAs
 ----
-Both buttons appear in three places (hero, mid CTA, To start) and in a
+Both buttons appear in three places (hero, mid CTA, final CTA) and in a
 sticky bottom bar on mobile. Destinations, unchanged:
 - Chat on WhatsApp: https://wa.me/923153647191
 - Book 15 minutes: https://calendly.com/alphafluxai/ai-consulation
@@ -50,6 +53,7 @@ or any tool name. It sells the outcome, not the tools.
 
 Status
 ------
-Built and render-verified 2026-11-24. NOT deployed. To deploy, push
-these files to a new public repo and create a Netlify site from it,
-the same way Angara Dhaba was deployed.
+Built and render-verified 2026-11-24 (v2: final CTA, paid line, byline,
+dedupe, spacing polish, tablet breakpoint). LIVE on Vercel:
+https://1st-shortlist.vercel.app/ (repo alphafluxai-blip/pehli-shortlist,
+main branch; Vercel auto-deploys on push). NOT on Netlify.
