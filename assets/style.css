@@ -400,11 +400,27 @@ section { padding: 56px 0; }
   gap: 12px 32px;
 }
 
-.contact-list li {
-  display: flex;
+.contact-list li { font-size: 16px; }
+
+.contact-list a {
+  display: inline-flex;
+  align-items: center;
   gap: 10px;
-  align-items: baseline;
-  font-size: 16px;
+  color: var(--dtext);
+  text-decoration: underline;
+  text-decoration-color: rgba(245, 239, 230, 0.45);
+  text-underline-offset: 4px;
+}
+
+.contact-list a:hover {
+  color: #FFFFFF;
+  text-decoration-color: #FFFFFF;
+}
+
+.contact-list a svg {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
 }
 
 .contact-list span {
@@ -414,13 +430,6 @@ section { padding: 56px 0; }
   text-transform: uppercase;
   color: var(--dmuted);
 }
-
-.contact-list a {
-  color: var(--dtext);
-  text-decoration: none;
-}
-
-.contact-list a:hover { text-decoration: underline; }
 
 /* ---------- Mobile sticky CTA bar (mobile only) ---------- */
 .sticky-cta { display: none; }
